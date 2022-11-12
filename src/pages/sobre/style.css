@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+header {
+    height: 80px;
+    background: #3490dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 15vw;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: #222222;
+    padding: 0 1.5rem;
+}
+
+header nav a:hover {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.title-page {
+    background-image: url("../../assets/bg-sobre-title.jpg");
+    height: 55vh;
+
+}

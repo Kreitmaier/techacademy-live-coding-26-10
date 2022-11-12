@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -14,7 +13,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0rem 15vw;
-    border-bottom: 1px solid #fff;
 }
 
 .logo {
@@ -46,7 +44,7 @@ header nav a:hover {
 #home {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 85vh;
+    height: 95vh;
     padding: 2rem 15vw;
     background: #3490dc;
 }
@@ -69,6 +67,7 @@ select,
 textarea {    
     padding: 0.5rem 0.75rem;
     border-radius: 10px;
+    margin: 8px;
 }
 
 #name {
