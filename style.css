@@ -5,7 +5,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 header {
     height: 80px;
     background: #3490dc;
@@ -13,13 +12,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0rem 15vw;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
 }
 
 h2 {
@@ -39,24 +31,6 @@ header nav a:hover {
     transition: 0.3s;
 }
 
-
-
-#home {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 2rem 15vw;
-    background: #3490dc;
-}
-
-#form {
-    display: flex;
-    align-self: center;
-    background-color: #222222;
-    color: #fff;
-    padding: 4vh 30vw;
-}
-
 label {
     
     line-height: 1.5;
@@ -70,18 +44,12 @@ textarea {
     margin: 8px;
 }
 
-#name {
-    width: 100%;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
 }
-#email{
-    width: 100%;
-}
-
-#appDescription {
-    width: 100%;
-}
-
-
 
 .column-left {
     display: flex;
@@ -103,11 +71,38 @@ textarea {
     line-height: 1.5;
 }
 
-
 .column-right {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 2rem 15vw;
+    background: #3490dc;
+}
+
+#form {
+    display: flex;
+    align-self: center;
+    background-color: #222222;
+    color: #fff;
+    padding: 4vh 30vw;
+}
+
+#name {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#appDescription {
+    width: 100%;
 }
 
 #home-image {
@@ -115,7 +110,7 @@ textarea {
     height: 90%;
 }
 
-#form-button{
+#form-button {
     width: 100%;
     margin-top: 30px;
     padding: 1rem 3rem;
@@ -150,4 +145,3 @@ textarea {
     color: #222222;
     transition: 0.3s;
 }
-
